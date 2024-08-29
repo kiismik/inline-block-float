@@ -1,0 +1,70 @@
+@import url("reset.css");
+
+.container {
+    max-width: 1200px;
+    font-size: 0px;
+}
+
+.square {
+    width: 400px;
+    height: 400px;
+}
+
+div {
+    outline: 1px solid black;
+}
+
+.first {
+    margin: 0 auto;
+}
+
+.first > .square {
+    background-color: aqua;
+    display: inline-block;
+}
+
+.second {
+    background-color: coral;
+}
+
+.big {
+    width: 800px;
+    height: 400px;
+    display: inline-block;
+}
+
+.big_part {
+    width: 800px;
+    height: 200px;
+}
+
+.small {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+
+.small_part {
+    width: 400px;
+    height: 133px;
+}
+
+.third {
+    background-color: blanchedalmond;
+}
+
+.third .square {
+    display: inline-block;
+}
+
+.part {
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+}
+
+.mini_part {
+    width: 400px;
+    height: 100px;
+    display: inline-block;
+}
